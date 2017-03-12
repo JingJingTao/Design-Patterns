@@ -13,6 +13,10 @@
 		E7F943071E75D46E001EE99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F943051E75D46E001EE99F /* Main.storyboard */; };
 		E7F943091E75D46E001EE99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F943081E75D46E001EE99F /* Assets.xcassets */; };
 		E7F9430C1E75D46E001EE99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F9430A1E75D46E001EE99F /* LaunchScreen.storyboard */; };
+		E7F9431F1E75D9E6001EE99F /* CaptainPlanetBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F9431E1E75D9E6001EE99F /* CaptainPlanetBuilder.m */; };
+		E7F943221E75D9FA001EE99F /* EarthWindFireBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F943211E75D9FA001EE99F /* EarthWindFireBuilder.m */; };
+		E7F943251E75DA5F001EE99F /* CaptainPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F943241E75DA5F001EE99F /* CaptainPlanet.m */; };
+		E7F943281E75DA76001EE99F /* EarthWindFire.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F943271E75DA76001EE99F /* EarthWindFire.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,16 @@
 		E7F943081E75D46E001EE99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7F9430B1E75D46E001EE99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7F9430D1E75D46E001EE99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F9431C1E75D93A001EE99F /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
+		E7F9431D1E75D9E6001EE99F /* CaptainPlanetBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptainPlanetBuilder.h; sourceTree = "<group>"; };
+		E7F9431E1E75D9E6001EE99F /* CaptainPlanetBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptainPlanetBuilder.m; sourceTree = "<group>"; };
+		E7F943201E75D9FA001EE99F /* EarthWindFireBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthWindFireBuilder.h; sourceTree = "<group>"; };
+		E7F943211E75D9FA001EE99F /* EarthWindFireBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthWindFireBuilder.m; sourceTree = "<group>"; };
+		E7F943231E75DA5F001EE99F /* CaptainPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptainPlanet.h; sourceTree = "<group>"; };
+		E7F943241E75DA5F001EE99F /* CaptainPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptainPlanet.m; sourceTree = "<group>"; };
+		E7F943261E75DA76001EE99F /* EarthWindFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthWindFire.h; sourceTree = "<group>"; };
+		E7F943271E75DA76001EE99F /* EarthWindFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthWindFire.m; sourceTree = "<group>"; };
+		E7F943291E75DD53001EE99F /* EarthWindFireProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthWindFireProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,16 @@
 		E7F942FB1E75D46E001EE99F /* Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E7F9431C1E75D93A001EE99F /* Builder.h */,
+				E7F9431D1E75D9E6001EE99F /* CaptainPlanetBuilder.h */,
+				E7F9431E1E75D9E6001EE99F /* CaptainPlanetBuilder.m */,
+				E7F943201E75D9FA001EE99F /* EarthWindFireBuilder.h */,
+				E7F943211E75D9FA001EE99F /* EarthWindFireBuilder.m */,
+				E7F943231E75DA5F001EE99F /* CaptainPlanet.h */,
+				E7F943241E75DA5F001EE99F /* CaptainPlanet.m */,
+				E7F943291E75DD53001EE99F /* EarthWindFireProtocol.h */,
+				E7F943261E75DA76001EE99F /* EarthWindFire.h */,
+				E7F943271E75DA76001EE99F /* EarthWindFire.m */,
 				E7F942FF1E75D46E001EE99F /* AppDelegate.h */,
 				E7F943001E75D46E001EE99F /* AppDelegate.m */,
 				E7F943021E75D46E001EE99F /* ViewController.h */,
@@ -150,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F943251E75DA5F001EE99F /* CaptainPlanet.m in Sources */,
+				E7F943221E75D9FA001EE99F /* EarthWindFireBuilder.m in Sources */,
+				E7F9431F1E75D9E6001EE99F /* CaptainPlanetBuilder.m in Sources */,
 				E7F943041E75D46E001EE99F /* ViewController.m in Sources */,
 				E7F943011E75D46E001EE99F /* AppDelegate.m in Sources */,
+				E7F943281E75DA76001EE99F /* EarthWindFire.m in Sources */,
 				E7F942FE1E75D46E001EE99F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
