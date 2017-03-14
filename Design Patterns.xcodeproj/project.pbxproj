@@ -17,6 +17,10 @@
 		E7F943221E75D9FA001EE99F /* EarthWindFireBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F943211E75D9FA001EE99F /* EarthWindFireBuilder.m */; };
 		E7F943251E75DA5F001EE99F /* CaptainPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F943241E75DA5F001EE99F /* CaptainPlanet.m */; };
 		E7F943281E75DA76001EE99F /* EarthWindFire.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F943271E75DA76001EE99F /* EarthWindFire.m */; };
+		E7F94BC01E78A3FE003A587F /* Avatar.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F94BBF1E78A3FE003A587F /* Avatar.m */; };
+		E7F94BC31E78A5F2003A587F /* AvatarFactoryMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F94BC21E78A5F2003A587F /* AvatarFactoryMethod.m */; };
+		E7F94BC61E78A6E7003A587F /* Kuruk.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F94BC51E78A6E7003A587F /* Kuruk.m */; };
+		E7F94BC91E78A6F6003A587F /* Roku.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F94BC81E78A6F6003A587F /* Roku.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,14 @@
 		E7F943261E75DA76001EE99F /* EarthWindFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthWindFire.h; sourceTree = "<group>"; };
 		E7F943271E75DA76001EE99F /* EarthWindFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthWindFire.m; sourceTree = "<group>"; };
 		E7F943291E75DD53001EE99F /* EarthWindFireProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthWindFireProtocol.h; sourceTree = "<group>"; };
+		E7F94BBE1E78A3FE003A587F /* Avatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avatar.h; sourceTree = "<group>"; };
+		E7F94BBF1E78A3FE003A587F /* Avatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Avatar.m; sourceTree = "<group>"; };
+		E7F94BC11E78A5F2003A587F /* AvatarFactoryMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarFactoryMethod.h; sourceTree = "<group>"; };
+		E7F94BC21E78A5F2003A587F /* AvatarFactoryMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarFactoryMethod.m; sourceTree = "<group>"; };
+		E7F94BC41E78A6E7003A587F /* Kuruk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kuruk.h; sourceTree = "<group>"; };
+		E7F94BC51E78A6E7003A587F /* Kuruk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kuruk.m; sourceTree = "<group>"; };
+		E7F94BC71E78A6F6003A587F /* Roku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Roku.h; sourceTree = "<group>"; };
+		E7F94BC81E78A6F6003A587F /* Roku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Roku.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,14 @@
 				E7F943291E75DD53001EE99F /* EarthWindFireProtocol.h */,
 				E7F943261E75DA76001EE99F /* EarthWindFire.h */,
 				E7F943271E75DA76001EE99F /* EarthWindFire.m */,
+				E7F94BC11E78A5F2003A587F /* AvatarFactoryMethod.h */,
+				E7F94BC21E78A5F2003A587F /* AvatarFactoryMethod.m */,
+				E7F94BBE1E78A3FE003A587F /* Avatar.h */,
+				E7F94BBF1E78A3FE003A587F /* Avatar.m */,
+				E7F94BC41E78A6E7003A587F /* Kuruk.h */,
+				E7F94BC51E78A6E7003A587F /* Kuruk.m */,
+				E7F94BC71E78A6F6003A587F /* Roku.h */,
+				E7F94BC81E78A6F6003A587F /* Roku.m */,
 				E7F942FF1E75D46E001EE99F /* AppDelegate.h */,
 				E7F943001E75D46E001EE99F /* AppDelegate.m */,
 				E7F943021E75D46E001EE99F /* ViewController.h */,
@@ -174,10 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F94BC01E78A3FE003A587F /* Avatar.m in Sources */,
 				E7F943251E75DA5F001EE99F /* CaptainPlanet.m in Sources */,
+				E7F94BC61E78A6E7003A587F /* Kuruk.m in Sources */,
 				E7F943221E75D9FA001EE99F /* EarthWindFireBuilder.m in Sources */,
+				E7F94BC31E78A5F2003A587F /* AvatarFactoryMethod.m in Sources */,
 				E7F9431F1E75D9E6001EE99F /* CaptainPlanetBuilder.m in Sources */,
 				E7F943041E75D46E001EE99F /* ViewController.m in Sources */,
+				E7F94BC91E78A6F6003A587F /* Roku.m in Sources */,
 				E7F943011E75D46E001EE99F /* AppDelegate.m in Sources */,
 				E7F943281E75DA76001EE99F /* EarthWindFire.m in Sources */,
 				E7F942FE1E75D46E001EE99F /* main.m in Sources */,
@@ -337,6 +361,7 @@
 				E7F943121E75D46E001EE99F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
